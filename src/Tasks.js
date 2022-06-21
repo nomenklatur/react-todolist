@@ -1,11 +1,7 @@
-import {nanoid} from 'nanoid';
-
-class Tasks {
+class Tasks{
     constructor(taskName){
-        this.id = nanoid(16);
         this.name = taskName;
-        this.isCompleted = false;
+        this.isComplete = false;
     }
 }
-
 export default Tasks;
